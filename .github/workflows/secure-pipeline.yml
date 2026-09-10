@@ -1,0 +1,18 @@
+# governance-demo per-repo secure-pipeline template.
+# The uses: line at 18 is the tracked action reference for the fleet record.
+# Line numbering is load-bearing; do not renumber.
+
+name: secure-pipeline
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout source
+        uses: internal/actions/build@b1c024fcf0d239495cbc2e2cb971da8d1fb1dd43
