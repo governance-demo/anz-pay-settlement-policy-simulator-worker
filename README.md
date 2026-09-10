@@ -1,2 +1,6 @@
 # anz-pay-settlement-policy-simulator-worker
-payments-platform / critical / anz
+
+Team: **payments-platform**  
+Tier: **critical**  
+Region: **anz**  
+Synthetic demo repo for the Domo governance platform.
